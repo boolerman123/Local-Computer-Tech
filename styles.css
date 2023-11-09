@@ -1,0 +1,111 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: #fff;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #fff;
+}
+
+header {
+    padding-top: 50px;
+}
+
+.logo {
+    display: block;
+    margin: 0 auto;
+    max-width: 200px;
+    height: auto;
+}
+
+section {
+    padding: 40px 0;
+}
+
+main-section, footer {
+    background-color: #fff;
+}
+
+main-section h1 {
+    font-size: 3em;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+main-section p {
+    font-size: 10.5em;
+    margin-bottom: 20px;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 30px;
+    background-color: #4F46E5;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.5em;
+    transition: background-color 0.3s;
+    margin-top: 20px;
+}
+
+.cta-button:hover {
+    background-color: #352F9C;
+}
+
+services-section {
+    background-color: #4F46E5;
+    color: #fff;
+    padding: 20px 0;
+}
+
+services-section h2 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+.services {
+    display: flex;
+    justify-content: center;
+}
+
+.service {
+    flex: 1 0 300px;
+    text-align: center;
+    margin: 10px;
+}
+
+.service img.large-logo {
+    max-width: 350px;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.service h3 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+footer p {
+    font-size: 1.5em;
+    margin: 5px 0;
+}
